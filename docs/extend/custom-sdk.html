@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <title>amis - 低代码前端框架</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link type="image/x-icon" rel="shortcut icon" href="/amis/static/favicon_b3b0647.png" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />            <link rel="stylesheet" href="/amis/pkg/style_204b68e.css" />
+    <link rel="stylesheet" href="/amis/pkg/npm_cc6d46d.css" />
+    <style>
+      .app-wrapper,
+      .schema-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+        <script type="text/javascript">// gitee 最近特别慢
+if (location.hostname === 'baidu.gitee.io') {
+    location.hostname = 'aisuda.bce.baidu.com';
+}
+var theme = localStorage.getItem('amis-theme') || 'cxd';
+if (theme === 'default') {
+    theme = 'cxd';
+}
+// 非 IE 模式
+if (window.navigator.userAgent.indexOf('Trident') === -1) {
+    document.write("<link rel=\"stylesheet\" title=\"ang\" ".concat(theme !== 'ang' ? 'disabled' : '', "  href=\"").concat('/amis/scss/themes/ang_5bd0b42.css', "\" />"));
+    document.write("<link rel=\"stylesheet\" title=\"cxd\" ".concat(theme !== 'cxd' ? 'disabled' : '', " href=\"").concat('/amis/scss/themes/cxd_25c4858.css', "\" />"));
+    document.write("<link rel=\"stylesheet\" title=\"dark\" ".concat(theme !== 'dark' ? 'disabled' : '', " href=\"").concat('/amis/scss/themes/dark_a035f68.css', "\" />"));
+    document.write("<link rel=\"stylesheet\" title=\"antd\" ".concat(theme !== 'antd' ? 'disabled' : '', " href=\"").concat('/amis/scss/themes/antd_45a6897.css', "\" />"));
+}
+else {
+    document.write("<link rel=\"stylesheet\" title=\"ang\" ".concat(theme !== 'ang' ? 'disabled' : '', "  href=\"").concat('/amis/scss/themes/ang-ie11_b6f0d79.css', "\" />"));
+    document.write("<link rel=\"stylesheet\" title=\"cxd\" ".concat(theme !== 'cxd' ? 'disabled' : '', " href=\"").concat('/amis/scss/themes/cxd-ie11_9cf54af.css', "\" />"));
+    document.write("<link rel=\"stylesheet\" title=\"dark\" ".concat(theme !== 'dark' ? 'disabled' : '', " href=\"").concat('/amis/scss/themes/dark-ie11_0430f84.css', "\" />"));
+    document.write("<link rel=\"stylesheet\" title=\"antd\" ".concat(theme !== 'antd' ? 'disabled' : '', " href=\"").concat('/amis/scss/themes/antd-ie11_26ebfb5.css', "\" />"));
+}
+</script>
+    
+<link rel="stylesheet" href="/amis/scss/helper_bea49fb.css" />  </head>
+
+  <body>
+    <div id="root" class="app-wrapper"></div>  
+<script src="/amis/pkg/npm_8cf76c7.js"></script>
+<script type="text/javascript" src="/amis/pkg/examples/index.html_map_1879ff2.js"></script>
+<script type="text/javascript" src="/amis/pkg/app_34f2e07.js"></script>
+<script type="text/javascript" src="/amis/pkg/rest_a2c37cb.js"></script>
+<script type="text/javascript">
+      if (location.hostname !== 'localhost') {
+        var _hmt = _hmt || [];
+
+        // 百度统计
+        (function () {
+          var hm = document.createElement('script');
+          hm.src =
+            'https://hm.baidu.com/hm.js?286766a21abb57abefedbd5257a26dc8';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(hm, s);
+        })();
+      }
+
+      window.enableAMISDebug = true;
+
+      /* @require examples/index.jsx 标记为同步依赖，提前加载 */
+      amis.require(['ca626e1'], function (app) {
+        var initialState = {};
+        app.bootstrap(document.getElementById('root'), initialState);
+      });
+    </script>
+</body>
+</html>
